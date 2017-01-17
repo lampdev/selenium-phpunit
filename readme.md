@@ -5,11 +5,7 @@
 4) run composer update  
 
 ## Testing:
-<<<<<<< HEAD
 Launch the Selenium server with chrome driver:  
-=======
-launch the Selenium server with chrome driver  
->>>>>>> 8d68c487b28e32da691f31811b6222406dab5969
     java -jar selenium-server-standalone-2.29.0.jar -Dwebdriver.chrome.driver="chromedriver"
 Place there your Selenium driver version and the path to chromedriver (step 3 in Prerequisites)  
 
