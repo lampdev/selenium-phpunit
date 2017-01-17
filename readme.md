@@ -6,8 +6,12 @@
 
 ## Testing:
 Launch the Selenium server with chrome driver:  
+
     java -jar selenium-server-standalone-2.29.0.jar -Dwebdriver.chrome.driver="chromedriver"
+
 Place there your Selenium driver version and the path to chromedriver (step 3 in Prerequisites)  
 
-great! You can testing. run:  
+great! You can testing. run:
+
     phpunit --bootstrap tests/bootstrap.php tests/
+
